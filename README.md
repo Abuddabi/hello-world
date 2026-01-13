@@ -4,7 +4,7 @@ This is a simple TypeScript project that demonstrates a typewriter effect animat
 
 I created this software to practice TypeScript fundamentals and learn how to set up a basic TypeScript development environment. This project helped me understand TypeScript compilation, async/await patterns, and DOM manipulation with type safety.
 
-[Software Demo Video](http://youtube.link.goes.here)
+Software Demo Video provided in the student report.
 
 # Getting Started
 
