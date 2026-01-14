@@ -14,14 +14,13 @@ class Greeter {
     element.textContent = ""; // Clear text before starting
 
     // Initial delay before starting
-    await new Promise((resolve) => setTimeout(resolve, 250));
+    await new Promise((resolve) => setTimeout(resolve, 300));
 
     // Loop through each letter
     for (let i = 0; i < fullText.length; i++) {
-      console.log(`Typing letter: ${fullText[i]}`);
+      element.textContent += fullText[i];
       // Wait specified time before next letter
       await new Promise((resolve) => setTimeout(resolve, speed));
-      element.textContent += fullText[i];
     }
   }
 }
